@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "todo-app",
+    "name": "Todo List",
     "slug": "todo-app",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/icon-todo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,12 +23,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon-todo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.wesley4.almeida.todoapp"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon-todo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "42da7d9d-fb33-4d94-b23c-41f483597e29"
+      }
     }
   }
 }
